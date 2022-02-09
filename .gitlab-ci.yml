@@ -1,0 +1,5 @@
+include:
+  - https://fedcineibu.haiziwang.com/static-html/default-yarn.yaml
+variables:
+  PROJECT_BUILD_FOLDER: dist
+image: testimages.haiziwang.com/front/static-html-runner:16.13.0-stretch-v1
