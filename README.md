@@ -1,6 +1,6 @@
 ### 使用了 vite + react@17 + react-router-dom@6 + typescript + antd 快速搭建的后台管理系统
 
-- [vite](https://reactrouter.com/docs/en/v6/api#route)
+- [vite](https://cn.vitejs.dev/)
 - [react-router-dom](https://reactrouter.com/docs/en/v6/api#route)
 
 ### 运行项目
