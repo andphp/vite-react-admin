@@ -16,6 +16,7 @@ const Home = () => {
             margin: "24px 16px",
             padding: 24,
             backgroundColor: "white",
+            minHeight: `calc(100vh - 112px)`,
           }}
         >
           <Outlet />

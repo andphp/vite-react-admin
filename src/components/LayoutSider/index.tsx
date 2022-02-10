@@ -12,14 +12,14 @@ const MySider = () => {
       <div className={styles.logo} />
       <Menu
         mode="inline"
-        defaultSelectedKeys={["/solitairerulelist"]}
+        defaultSelectedKeys={["/home"]}
         onClick={({ key }) => navigate(key)}
       >
-        <Menu.Item key="/solitairerulelist" icon={<UserOutlined />}>
-          群接龙规则列表
+        <Menu.Item key="/home" icon={<UserOutlined />}>
+          nav 1
         </Menu.Item>
-        <Menu.Item key="/solitairelist" icon={<VideoCameraOutlined />}>
-          群接龙列表
+        <Menu.Item key="/about" icon={<VideoCameraOutlined />}>
+          nav 2
         </Menu.Item>
       </Menu>
     </Sider>

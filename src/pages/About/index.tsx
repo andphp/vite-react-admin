@@ -1,7 +1,7 @@
 import { useMemo } from "react";
 import { Table } from "antd";
 
-const SolitaireList = () => {
+const About = () => {
   const dataSource = useMemo(
     () => [
       {
@@ -42,4 +42,4 @@ const SolitaireList = () => {
   return <Table dataSource={dataSource} columns={columns} />;
 };
 
-export default SolitaireList;
+export default About;

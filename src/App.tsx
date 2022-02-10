@@ -3,8 +3,8 @@ import { Navigate, Route, Routes } from "react-router-dom";
 
 const MyLayout = lazy(() => import("pages/Layout"));
 const NoMatch = lazy(() => import("pages/NoMatch"));
-const SolitaireRulePage = lazy(() => import("pages/SolitaireRuleList"));
-const SolitairePage = lazy(() => import("pages/SolitaireList"));
+const Home = lazy(() => import("pages/Home"));
+const About = lazy(() => import("pages/About"));
 
 function App() {
   return (
@@ -17,20 +17,20 @@ function App() {
           </Suspense>
         }
       >
-        <Route index element={<Navigate to="/solitairerulelist" />} />
+        <Route index element={<Navigate to="/home" />} />
         <Route
-          path="solitairerulelist"
+          path="home"
           element={
             <Suspense fallback={null}>
-              <SolitaireRulePage />
+              <Home />
             </Suspense>
           }
         />
         <Route
-          path="solitairelist"
+          path="about"
           element={
             <Suspense fallback={null}>
-              <SolitairePage />
+              <About />
             </Suspense>
           }
         />
